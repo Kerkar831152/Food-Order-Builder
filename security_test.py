@@ -1,6 +1,7 @@
 import sqlite3
 
-# Intentionally insecure: SQL injection vulnerability
+# Intentionally insecure: SQL injection vulnerability and 
+#vgejc ths
 def get_user_unsafe(username):
     connection = sqlite3.connect("test.db")
     cursor = connection.cursor()
